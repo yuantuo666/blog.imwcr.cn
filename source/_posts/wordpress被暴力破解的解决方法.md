@@ -1,0 +1,56 @@
+---
+title: WordPress被暴力破解的解决方法
+tags:
+  - WordPress
+  - 破解
+id: '110'
+categories:
+  - - 教程
+date: 2021-04-02 17:31:00
+---
+
+今天下课回到家，打开网站发现MySQL又崩溃了，前两天也崩溃过一次，正好趁着假期，就顺便研究了一下问题。
+
+首先第一步肯定是看日志了，仔细看了看MySQL的日志，发现没有什么有用的信息，于是就转向nginx的日志
+
+最开始以为是我的首页引起的问题，所以在查询的时候一直没有找到原因，只发现了大概停止的时间
+
+[![](https://blog.imwcr.cn/wp-content/uploads/2021/04/1-scaled.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/04/1-scaled.jpg)
+
+首页日志
+
+随后再看宝塔页面的系统监控的时候，发现是在6点27分的时候，资源利用率达到100%，并且磁盘IO的读取达到了100MB/s
+
+[![](https://blog.imwcr.cn/wp-content/uploads/2021/04/2.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/04/2.jpg)
+
+宝塔面板监控
+
+[![](https://blog.imwcr.cn/wp-content/uploads/2021/04/3.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/04/3.jpg)
+
+宝塔面板监控2
+
+然后我就在想，可能是因为其他的网站所导致的崩溃
+
+所以我就去把其他网站的日志也下载下来，果不其然，在我博客的日志里面，就发现了这个很奇怪的信息
+
+首先就是非常大量的访问 **xmlrpc.php** 这个文件，但并没有造成MySQL的停止运行。
+
+随后在六点二十七分左右找到大量报错的日志，基本上锁定的是由于 **wp-login.php** 这个文件所引起的
+
+[![](https://blog.imwcr.cn/wp-content/uploads/2021/04/4-scaled.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/04/4-scaled.jpg)
+
+报错日志
+
+于是就想办法如何解决这个问题
+
+最简单的方法应该是去应用商店安装一个插件，这里就不赘述了
+
+而我选择的方法是修改文件，就是将处理登录事务的文件名修改
+
+具体操作如下
+
+1.  修改网站的 **wp-login.php** 文件名为其他的文件名，例如 **login.php**
+2.  将你修改文件中出现的 **wp-login.php** 全部修改成 **login.php**
+3.  打开 **wp-includes/general-template.php** 文件，把文件中的 **wp-login.php** 全部修改成 **login.php**
+
+这样就可以避免大部分强行post破解了~
