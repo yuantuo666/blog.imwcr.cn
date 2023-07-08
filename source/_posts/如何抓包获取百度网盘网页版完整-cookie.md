@@ -8,13 +8,14 @@ id: '181'
 categories:
   - - 教程
 date: 2022-11-24 13:43:21
+cover: https://blog.imwcr.cn/wp-content/uploads/2022/11/image-7.png
+coverWidth: 1200
+coverHeight: 600
 ---
 
 1\. 使用 Edge 浏览器打开已经登录的百度网盘网页版
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2022/11/image.png)](https://blog.imwcr.cn/wp-content/uploads/2022/11/image.png)
-
-百度网盘网页版
 
 2\. 按下 F12 打开开发者工具
 
@@ -22,13 +23,9 @@ date: 2022-11-24 13:43:21
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-1.png)](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-1.png)
 
-打开开发者工具
-
 3\. 选择 网络 选项卡
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-2.png)](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-2.png)
-
-网络选项卡
 
 4\. 刷新页面
 
@@ -36,22 +33,14 @@ date: 2022-11-24 13:43:21
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-3.png)](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-3.png)
 
-寻找请求
-
 6\. 在请求的详细信息页面往下滑找到 Cookie 参数
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-4.png)](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-4.png)
-
-寻找Cookie
 
 7\. 对 Cookie 右键复制值
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-5.png)](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-5.png)
 
-复制Cookie
-
 8\. 粘贴到安装页面
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-6.png)](https://blog.imwcr.cn/wp-content/uploads/2022/11/image-6.png)
-
-粘贴Cookie

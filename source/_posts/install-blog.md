@@ -5,6 +5,9 @@ id: '13'
 categories:
   - - 瞎鼓捣
 date: 2021-02-18 16:40:02
+cover: https://blog.imwcr.cn/wp-content/uploads/2021/02/Snipaste_2021-02-18_16-28-16.jpg
+coverWidth: 1200
+coverHeight: 600
 ---
 
 啊啊啊~好大的坑

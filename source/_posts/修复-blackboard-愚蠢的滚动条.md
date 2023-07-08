@@ -7,6 +7,9 @@ categories:
   - - JavaScript
   - - Web
 date: 2023-04-22 15:05:49
+cover: https://blog.imwcr.cn/wp-content/uploads/2023/04/Snipaste_2023-04-22_15-04-59.png
+coverWidth: 1200
+coverHeight: 600
 ---
 
 ## Updates 页面的问题

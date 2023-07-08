@@ -9,6 +9,9 @@ categories:
   - - 瞎鼓捣
   - - 网络
 date: 2023-03-20 21:46:10
+cover: https://blog.imwcr.cn/wp-content/uploads/2023/03/lars-kienle-IlxX7xnbRF8-unsplash-scaled.jpg
+coverWidth: 1200
+coverHeight: 600
 ---
 
 ## 小伙伴的问题
@@ -35,8 +38,6 @@ date: 2023-03-20 21:46:10
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/03/d47c32afe1b5d859c7c33d63c502940.jpg)](https://blog.imwcr.cn/wp-content/uploads/2023/03/d47c32afe1b5d859c7c33d63c502940.jpg)
 
-丑死了
-
 ## r68s 设置
 
 咋设置呢，先开放防火墙，再设置端口转发即可。
@@ -47,13 +48,11 @@ date: 2023-03-20 21:46:10
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-12.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-12.png)
 
-登录
 
 2\. 打开 网络 - 防火墙
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-13.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-13.png)
 
-防火墙
 
 3\. 修改防火墙允许“入站数据”和“转发”，wan即为r68s对外的网口，修改为接受，则房子外的设备可以访问。
 
@@ -63,8 +62,6 @@ date: 2023-03-20 21:46:10
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-15.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-15.png)
 
-保存并应用
-
 这样，防火墙就开放啦。
 
 ### 设置端口转发/端口映射
@@ -73,27 +70,20 @@ date: 2023-03-20 21:46:10
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-16.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-16.png)
 
-端口转发
 
 2\. 按图新建端口转发，注意内部IP地址记得**选对设备**，还要点击**添加按钮！！**
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-17.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-17.png)
 
-新建
-
 3\. 保存并应用
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-18.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-18.png)
-
-保存并应用
 
 这样，就设置好啦~
 
 ### 体验使用
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/03/551456c51c523e738241eb314151e90.jpg)](https://blog.imwcr.cn/wp-content/uploads/2023/03/551456c51c523e738241eb314151e90.jpg)
-
-解释
 
 现在访问 **http://\[r68s在手机局域网下的IP\]:5244/** 就可以访问到 x3 上部署的 alist 啦
 

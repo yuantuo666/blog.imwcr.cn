@@ -9,6 +9,9 @@ id: '64'
 categories:
   - - 瞎鼓捣
 date: 2021-02-26 19:58:40
+cover: https://blog.imwcr.cn/wp-content/uploads/2021/02/kobu-agency-1-3zWhYFNhc-unsplash.jpg
+coverWidth: 1200
+coverHeight: 600
 ---
 
 ## 声明
@@ -19,27 +22,19 @@ date: 2021-02-26 19:58:40
 
 前两天在tg上看到了一个查询Q绑的接口。我心想，这不是去年就泄露的数据吗，怎么到了今天还有人在弄。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-15.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-15.png)
+[![TG上的消息](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-15.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-15.png)
 
-TG上的消息
-
-![](https://images.haiwaidaquan.com/https://img.nga.178.com/attachments/mon_202011/24/-7Q5-1pygK2gT3cSl4-ge.jpg.medium.jpg)
-
-讨论截图
+![讨论截图](https://images.haiwaidaquan.com/https://img.nga.178.com/attachments/mon_202011/24/-7Q5-1pygK2gT3cSl4-ge.jpg.medium.jpg)
 
 ## 进一步探索
 
 然后我就很好奇的查询了一下，发现数据确实是正确的，就是去年十一月份泄露的那个。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-16.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-16.png)
-
-查询结果
+[![查询结果](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-16.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-16.png)
 
 然后我就访问了下他的主页……
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-17-1024x534.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-17-1024x534.png)
-
-首页
+[![首页](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-17-1024x534.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-17-1024x534.png)
 
 发现这个页面真的辣眼睛，这用的是多少年前的模板，感觉就是哪个代刷网改过来的，各种弹窗乱窜……
 
@@ -47,15 +42,11 @@ TG上的消息
 
 然后他还提到卖数据，其实之前是没有看到这个公告的，应该是2.26才加上的。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-18.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-18.png)
-
-卖数据
+[![卖数据](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-18.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-18.png)
 
 先不说卖接口这个迷幻的操作，你这卖的数据库也太贵了吧
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-19-1024x654.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-19.png)
-
-数据库价格
+[![数据库价格](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-19-1024x654.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-19.png)
 
 你这带个索引就坐地起价了？？
 
@@ -63,25 +54,17 @@ TG上的消息
 
 于是我决定会一会他们的客户，请看下面的聊天记录，单击可以放大。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/Snipaste_2021-02-26_15-34-39-330x1024.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/02/Snipaste_2021-02-26_15-34-39.jpg)
+[![和他们客服的聊天](https://blog.imwcr.cn/wp-content/uploads/2021/02/Snipaste_2021-02-26_15-34-39-330x1024.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/02/Snipaste_2021-02-26_15-34-39.jpg)
 
-和他们客服的聊天
-
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-14.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-14.png)
-
-他们群里的消息
+[![他们群里的消息](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-14.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-14.png)
 
 以上都是我和客服的聊天记录。
 
 再po几个其他人的聊天记录
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-20-190x1024.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-20.png)
+[![路人A](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-20-190x1024.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-20.png)
 
-路人A
-
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-21.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-21.png)
-
-Q群消息A
+[![Q群消息A](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-21.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-21.png)
 
 > 电报：Telegram（非正式简称TG）是跨平台的即时通信软件，用户可以相互交换加密与自毁消息，发送照片、视频等所有类型文件。
 > 
@@ -89,9 +72,7 @@ Q群消息A
 
 补充一下什么是电报。因为电报不被审查，所以有很多**黑色交易**发生在这里。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-22.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-22.png)
-
-路人B
+[![路人B](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-22.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-22.png)
 
 ## 运营模式
 
@@ -111,41 +92,29 @@ Q群消息A
 
 随后我转向了Github，发现了一个收到律师函的项目。
 
-[![](https://ae01.alicdn.com/kf/U4fbf1153085a4207b61dc3609a9aeedbQ.jpg)](https://ae01.alicdn.com/kf/U4fbf1153085a4207b61dc3609a9aeedbQ.jpg)
-
-github的一个项目
+[![Github的一个项目](https://ae01.alicdn.com/kf/U4fbf1153085a4207b61dc3609a9aeedbQ.jpg)](https://ae01.alicdn.com/kf/U4fbf1153085a4207b61dc3609a9aeedbQ.jpg)
 
 尽管这个仓库已经被清空了，但是——
 
 怎么可能会消失呢，随便找个fork就可以看见了
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-23-1024x490.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-23.png)
+[![Fork列表](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-23-1024x490.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-23.png)
 
-fork列表
+[![文件名](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-24.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-24.png)
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-24.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-24.png)
-
-文件名
-
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-25.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-25.png)
-
-分隔符
+[![分隔符](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-25.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-25.png)
 
 然后就找到了这个库的名字 **6.9更新总库.txt** ，和它的存储格式 **QQ号----手机号** ，接下来就好搞了
 
 上谷歌去搜了一下，排除了一些无效和收费的网站后，果然就找到了。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-26.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-26.png)
-
-数据库
+[![数据库](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-26.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-26.png)
 
 总不可能真的上暗网吧，然后通过一些操作，就找到了一串神秘字符串
 
 丢到下载软件里一看
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2022/12/image.png)](https://blog.imwcr.cn/wp-content/uploads/2022/12/image.png)
-
-数据
+[![数据](https://blog.imwcr.cn/wp-content/uploads/2022/12/image.png)](https://blog.imwcr.cn/wp-content/uploads/2022/12/image.png)
 
 艹！！！
 
@@ -157,19 +126,13 @@ fork列表
 
 结果一个意想不到的事情发生了，这个文件太大了，打不开。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-31.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-31.png)
+[![Notpad++打不开](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-31.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-31.png)
 
-Notpad++打不开
-
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-30.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-30.png)
-
-VScode打不开
+[![VScode打不开](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-30.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-30.png)
 
 那还能这么办呢？
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-32.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-32.png)
-
-python脚本
+[![python脚本](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-32.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-32.png)
 
 直接三行python代码解决，预览一下文件内容是什么
 
@@ -181,9 +144,7 @@ file.close()
 
 查询肯定不能这样子搞，得搞个数据库
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-33.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-33.png)
-
-数据库导入
+[![数据库导入](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-33.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-33.png)
 
 就是这个导入速度太\*\*慢了，四个小时才导入三千万条
 
@@ -306,15 +267,11 @@ if __name__ == '__main__':
 
 还别说，这次追溯的经历还是学到了一些东西，顺便回顾了一下回形针以前的一期视频。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-34.png)](https://www.bilibili.com/video/BV1R4411w7f3)
-
-回形针d的视频
+[![回形针的视频](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-34.png)](https://www.bilibili.com/video/BV1R4411w7f3)
 
 拿别人的 **隐私信息** 谋取利益本来就是 **不道德** 而且 **违法** 的事，抛开tg上的机器人不说（因为管不到），这种在国内公开查询而且还售卖的行为就十分令人愤怒，尽管QQ屏蔽了这个网站，但却不能根除它。也许，需要有量的大佬来D？还是要GFW帮忙？
 
-![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-35.png)
-
-QQ提示
+![QQ提示](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-35.png)
 
 感觉很多事情本末倒置了，用心做分享的网站被几百G流量攻击，这种以隐私来牟利的网站却**春风吹不尽**。
 
@@ -324,6 +281,6 @@ QQ提示
 > 
 > [我与这个世界的最后一次抗争 DIYgod](https://diygod.me/my-last-fight-against-this-world/)
 
-藏个彩蛋，就在这个页面里，想办法找到吧~
+~~藏个彩蛋，就在这个页面里，想办法找到吧~~
 
-console.log("彩蛋：富强、民主、文明、和谐，自由、平等、公正、法治，爱国、敬业、诚信、友善")
+~~console.log("彩蛋：富强、民主、文明、和谐，自由、平等、公正、法治，爱国、敬业、诚信、友善")~~

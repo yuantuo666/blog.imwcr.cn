@@ -8,6 +8,9 @@ id: '121'
 categories:
   - - 教程
 date: 2021-06-08 12:48:22
+cover: https://blog.imwcr.cn/wp-content/uploads/2021/06/pexels-panumas-nikhomkhai-1148820-scaled.jpg
+coverWidth: 1200
+coverHeight: 600
 ---
 
 ## 准备服务器
@@ -20,25 +23,18 @@ date: 2021-06-08 12:48:22
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_11-25-08.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_11-25-08.jpg)
 
-通知
-
 就是说原来的活动没有了，换了个新活动。
 
 仔细看看，似乎价格还不错
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_11-26-42.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_11-26-42.jpg)
 
-想买的
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_11-26-33.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_11-26-33.jpg)
-
-实际价格
 
 等到要付款才发现根本没有优惠，于是想起来腾讯也有这么一个活动。
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_11-29-45.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_11-29-45.jpg)
-
-腾讯服务器
 
 还是腾讯香，二话不说马上买了一个
 
@@ -92,8 +88,6 @@ java -Xmx1024M -jar BuildTools.jar --rev 1.16.5
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_11-41-55.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_11-41-55.jpg)
 
-防火墙放行
-
 在配置页面找到对应的页面放行 **25565** 端口（Minecraft联机默认端口）
 
 如果安装了宝塔面板之类的程序，也需要放行端口。
@@ -125,11 +119,7 @@ java -Xms1024m -Xmx2000m -jar server.jar
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_12-00-45.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_12-00-45.jpg)
 
-公网ip
-
 [![](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_12-01-47.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-08_12-01-47.jpg)
-
-Minecraft设置服务器
 
 ## 更多设置
 

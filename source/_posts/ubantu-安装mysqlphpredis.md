@@ -15,6 +15,9 @@ categories:
   - - 后端
   - - 网络
 date: 2023-06-06 13:24:20
+cover: https://blog.imwcr.cn/wp-content/uploads/2023/03/lars-kienle-IlxX7xnbRF8-unsplash-scaled.jpg
+coverWidth: 1200
+coverHeight: 600
 ---
 
 本文仅用作记录。

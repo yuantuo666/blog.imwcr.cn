@@ -6,6 +6,9 @@ id: '248'
 categories:
   - - note
 date: 2023-03-08 23:02:44
+cover: https://blog.imwcr.cn/wp-content/uploads/2023/03/zac-wolff-rv2ooDQuNuI-unsplash-scaled.jpg
+coverWidth: 1200
+coverHeight: 600
 ---
 
 这儿收集了一些免费好用的ChatGPT镜像站点，它们大多数基于ChatGPT的最新API构建。

@@ -5,6 +5,9 @@ id: '172'
 categories:
   - - uncategorized
 date: 2023-03-02 21:19:44
+cover: https://blog.imwcr.cn/wp-content/uploads/2023/03/Snipaste_2023-03-02_21-29-24.png
+coverWidth: 1200
+coverHeight: 600
 ---
 
 > _warning_ 2023/04/01 + 05/04更新  

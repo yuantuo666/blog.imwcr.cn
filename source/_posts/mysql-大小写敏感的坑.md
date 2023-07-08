@@ -9,6 +9,9 @@ categories:
   - - Web
   - - 后端
 date: 2023-01-15 23:15:58
+cover: https://blog.imwcr.cn/wp-content/uploads/2023/01/caspar-camille-rubin-fPkvU7RDmCo-unsplash-scaled.jpg
+coverWidth: 1200
+coverHeight: 600
 ---
 
 ## 遇到的坑
@@ -17,7 +20,6 @@ date: 2023-01-15 23:15:58
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/01/image.png)](https://blog.imwcr.cn/wp-content/uploads/2023/01/image.png)
 
-数据表结构
 
 如上图所示，username的字符集被设置成了utf8\_general\_ci，即Unicode大小写不敏感。这也是MySQL默认的设置，但用户名作为区分用户的重要参数，大小写不敏感自然会出现很多意外的bug。
 
@@ -48,23 +50,20 @@ date: 2023-01-15 23:15:58
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/02/image.png)](https://blog.imwcr.cn/wp-content/uploads/2023/02/image.png)
 
-Google 登录
+Google 登录：自动转换
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/02/image-1.png)](https://blog.imwcr.cn/wp-content/uploads/2023/02/image-1.png)
 
-自动转换
 
 在输入正确的邮箱后，输入密码时，原来大写的邮箱会被自动转换成小写，当然，对于邮箱来说是这样，因为邮箱本身就不区分大小写。（如果有网站的数据库区分了邮箱的大小写，那理论上，通过修改大小写组合，一个邮箱可以注册很多次）
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/02/image-2.png)](https://blog.imwcr.cn/wp-content/uploads/2023/02/image-2.png)
 
-邮箱地址不区分大小写
+_其实Gmail同时还会忽略.+等字符，也就是你的邮箱中间可以加点或者加号等，感兴趣的可以搜索Google别名邮箱_
 
 ### 那么 Github 呢
 
 [![](https://blog.imwcr.cn/wp-content/uploads/2023/02/image-4.png)](https://blog.imwcr.cn/wp-content/uploads/2023/02/image-4.png)
-
-Github 大小写测试
 
 可以看到，当尝试使用大写去注册时，会提示不可用。也就是说，当你注册一个名称之后，这个名称所有的大小写组合也被你占用了，这其实也很符合认知，因为正常的用户也不会刻意去区分用户名的大小写。
 

@@ -12,6 +12,9 @@ categories:
   - - Web
   - - 后端
 date: 2023-05-24 00:44:43
+cover: https://blog.imwcr.cn/wp-content/uploads/2023/05/benjamin-lehman-GNyjCePVRs8-unsplash-scaled.jpg
+coverWidth: 1200
+coverHeight: 600
 ---
 
 稳定运行了一个月的MySQL数据库突然寄了，连接的PHP返回错误是MySQL server has gone away.
