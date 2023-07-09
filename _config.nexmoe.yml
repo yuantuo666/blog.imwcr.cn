@@ -1,8 +1,8 @@
 avatar: https://pic1.afdiancdn.com/user/b37d300210c011edb7a252540025c377/avatar/ec7d29a62060f8ead620d0dc864b1f1a_w1080_h1082_s656.jpg # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
-    path: https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png
-    width: 1280
-    height: 726
+    path: https://cn.bing.com/th?id=OHR.BrightonPalacePier_ROW3449174024_1920x1080.jpg
+    width: 1920
+    height: 720
 favicon:
   href: /favicon.ico # 网站图标
   type: image/x-icon # 图标类型，可能的值有(image/png, image/vnd.microsoft.icon, image/x-icon, image/gif)
@@ -25,14 +25,17 @@ customStyles:
 iconlib: # //at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css
 
 menu:
-    回到首页:
+    所有文章:
         - /
         - icon-home
-    文章归档:
-        - /archive.html
-        - icon-container
-    我的朋友:
-        - /PY.html
+    个人首页:
+        - https://imwcr.cn/
+        - icon-home
+    # 文章归档:
+    #     - /archive.html
+    #     - icon-container
+    # 我的朋友:
+    #     - /PY.html
     给我赞助:
         - https://afdian.net/a/yuantuo666
         - icon-coffee

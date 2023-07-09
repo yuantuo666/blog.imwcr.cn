@@ -31,5 +31,6 @@ title: Hello New World - 迁移到 Hexo
 ## 迁移后留下的坑
 1. 之后还需要将图片链接修改下，目前都是 /wp-content/uploads/2021/02/xxx.jpg 这种形式，需要修改成 /uploads/xxx.jpg 这种形式。
 2. 浏览次数都会变成 0，目前准备使用 [soxft大佬的不蒜子](https://busuanzi.9420.ltd/) 的统计功能。
+3. 将之前的文章的评论迁移过来。
 
 So, Hello New World~
