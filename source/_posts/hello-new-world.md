@@ -1,11 +1,19 @@
 ---
 title: Hello New World - 迁移到 Hexo
+tags:
+  - 服务器
+categories:
+  - - Web
+  - - 网络
+date: 2023-11-19 12:00:00
 ---
 
 ## 迁移想法
 在去年我就有想法将博客从 WordPress 迁移到 [Hexo](https://hexo.io/)。
 
 毋庸置疑的是，WordPress 对于新手来说是更容易上手的。但当你掌握了 Git 这种版本管理工具和 Hexo 这种静态博客生成工具之后，你就会发现，这种方式更加适合~~程序员~~轻量服务器运行。
+
+其实这篇文章早在今年的 7 月 8 日就开始编写了，当时也就准备做迁移了。但是因为各种原因，一直没有完成。今天终于完成了，所以就写篇文章记录下。
 
 ## WordPress 的问题
 1. 早在两年前，我在后台写文章时，网页就崩溃了，我估计可能是内存泄露之类的错误导致的。
@@ -29,8 +37,8 @@ title: Hello New World - 迁移到 Hexo
 参照 [Hexo 官方文档](https://hexo.io/zh-cn/docs/migration)，就可以完成了。但是像封面图和脚注等就需要手动修改了，还好我之前文章不多，每一篇都手动处理下就可以了。
 
 ## 迁移后留下的坑
-1. 之后还需要将图片链接修改下，目前都是 /wp-content/uploads/2021/02/xxx.jpg 这种形式，需要修改成 /uploads/xxx.jpg 这种形式。
+1. 之后还需要将图片链接修改下，目前都是 /wp-content/uploads/2021/02/xxx.jpg 这种形式，需要修改成 /images/xxx.jpg 这种形式。
 2. 浏览次数都会变成 0，目前准备使用 [soxft大佬的不蒜子](https://busuanzi.9420.ltd/) 的统计功能。
-3. 将之前的文章的评论迁移过来。
+3. 目前使用了 [giscus](https://giscus.app/) 来实现评论功能，但是之前的评论还是需要迁移过来。
 
 So, Hello New World~
