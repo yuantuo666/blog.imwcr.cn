@@ -96,7 +96,7 @@ Cloudflare自选ip必备的一个小工具，需要使用该网站修改Cloudfla
 
 别看是360的软件，用起来还不错。感觉就是把360安全卫士里面清理的功能拿了出来，积累了这么多年的扫描内容肯定也挺实用的~
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-07_15-04-03.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/06/Snipaste_2021-06-07_15-04-03.jpg)
+[![](/images/2021/06/Snipaste_2021-06-07_15-04-03.jpg)](/images/2021/06/Snipaste_2021-06-07_15-04-03.jpg)
 
 360清理大师
 

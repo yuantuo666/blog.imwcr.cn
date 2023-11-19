@@ -15,13 +15,13 @@ date: 2021-04-02 17:31:00
 
 最开始以为是我的首页引起的问题，所以在查询的时候一直没有找到原因，只发现了大概停止的时间
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/04/1-scaled.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/04/1-scaled.jpg)
+[![](/images/2021/04/1-scaled.jpg)](/images/2021/04/1-scaled.jpg)
 
 随后再看宝塔页面的系统监控的时候，发现是在6点27分的时候，资源利用率达到100%，并且磁盘IO的读取达到了100MB/s
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/04/2.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/04/2.jpg)
+[![](/images/2021/04/2.jpg)](/images/2021/04/2.jpg)
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/04/3.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/04/3.jpg)
+[![](/images/2021/04/3.jpg)](/images/2021/04/3.jpg)
 
 然后我就在想，可能是因为其他的网站所导致的崩溃
 
@@ -31,7 +31,7 @@ date: 2021-04-02 17:31:00
 
 随后在六点二十七分左右找到大量报错的日志，基本上锁定的是由于 **wp-login.php** 这个文件所引起的
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/04/4-scaled.jpg)](https://blog.imwcr.cn/wp-content/uploads/2021/04/4-scaled.jpg)
+[![](/images/2021/04/4-scaled.jpg)](/images/2021/04/4-scaled.jpg)
 
 于是就想办法如何解决这个问题
 

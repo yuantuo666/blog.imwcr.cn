@@ -5,7 +5,7 @@ id: '172'
 categories:
   - - uncategorized
 date: 2023-03-02 21:19:44
-cover: https://blog.imwcr.cn/wp-content/uploads/2023/03/Snipaste_2023-03-02_21-29-24.png
+cover: /images/2023/03/Snipaste_2023-03-02_21-29-24.png
 coverWidth: 1200
 coverHeight: 600
 ---
@@ -17,13 +17,13 @@ coverHeight: 600
 
 事实确实如此，因为之前就有报道说 Cloudflare 为免费套餐的用户抵御了有史以来最大的 DDOS 攻击\[1\]，但当你自己配置时，可能发现你的源站还是会被打死。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2022/10/image-21.png)](https://blog.imwcr.cn/wp-content/uploads/2022/10/image-21.png)
+[![](/images/2022/10/image-21.png)](/images/2022/10/image-21.png)
 
 阿里云封禁通知
 
 这也是一些攻击者用来“击穿CDN”的方法，我们来看一看原因是什么。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2022/10/image-22.png)](https://blog.imwcr.cn/wp-content/uploads/2022/10/image-22.png)
+[![](/images/2022/10/image-22.png)](/images/2022/10/image-22.png)
 
 一些击穿 CDN 的攻击者
 
@@ -47,7 +47,7 @@ Host: <host>:<port>
 
 通过这个漏洞，我们就可以找到源站 IP 了，方法很简单，只要向全球 IP 发送带有 目标站点 域名 的 GET 请求（或 HEAD 请求），等一个状态码为 200 OK 就找到了。
 
-![](https://blog.imwcr.cn/wp-content/uploads/2023/04/image.png)
+![](/images/2023/04/image.png)
 
 这种方法十分简单，通常几分钟就可以扫描完成。同时如果知道源站服务器的一些信息，还可以缩小 IP 范围，加快扫描速度。
 

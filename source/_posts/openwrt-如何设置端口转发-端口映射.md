@@ -9,7 +9,7 @@ categories:
   - - 瞎鼓捣
   - - 网络
 date: 2023-03-20 21:46:10
-cover: https://blog.imwcr.cn/wp-content/uploads/2023/03/lars-kienle-IlxX7xnbRF8-unsplash-scaled.jpg
+cover: /images/2023/03/lars-kienle-IlxX7xnbRF8-unsplash-scaled.jpg
 coverWidth: 1200
 coverHeight: 600
 ---
@@ -24,7 +24,7 @@ coverHeight: 600
 
 先画个示意图，
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-11.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-11.png)
+[![](/images/2023/03/image-11.png)](/images/2023/03/image-11.png)
 
 伪网络拓扑图
 
@@ -36,7 +36,7 @@ coverHeight: 600
 
 那电脑是怎么上网的呢，其实r68s也充当了一个门的角色，他允许局域网内的设备向外发起请求，但阻止了外面的设备向内发起请求，也可以说是一个防火墙。（其实真实网络环境中，存在这样大量套娃的“防火墙”，只能单向向外发起请求；其实猫的外面也有很多这种套娃，但这种设计最初的设计是为了缓解IPv4地址的枯竭，但也起到了防护内部设备的功能，具体来说涉及到了NAT技术，这里就不展开了）
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/d47c32afe1b5d859c7c33d63c502940.jpg)](https://blog.imwcr.cn/wp-content/uploads/2023/03/d47c32afe1b5d859c7c33d63c502940.jpg)
+[![](/images/2023/03/d47c32afe1b5d859c7c33d63c502940.jpg)](/images/2023/03/d47c32afe1b5d859c7c33d63c502940.jpg)
 
 ## r68s 设置
 
@@ -46,21 +46,21 @@ coverHeight: 600
 
 1\. 访问 http://192.168.100.1/ 登录
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-12.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-12.png)
+[![](/images/2023/03/image-12.png)](/images/2023/03/image-12.png)
 
 
 2\. 打开 网络 - 防火墙
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-13.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-13.png)
+[![](/images/2023/03/image-13.png)](/images/2023/03/image-13.png)
 
 
 3\. 修改防火墙允许“入站数据”和“转发”，wan即为r68s对外的网口，修改为接受，则房子外的设备可以访问。
 
-![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-14.png)
+![](/images/2023/03/image-14.png)
 
 4\. 滑到页面底部 保存并应用
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-15.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-15.png)
+[![](/images/2023/03/image-15.png)](/images/2023/03/image-15.png)
 
 这样，防火墙就开放啦。
 
@@ -68,22 +68,22 @@ coverHeight: 600
 
 1\. 进入 网络 - 防火墙 - 端口转发
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-16.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-16.png)
+[![](/images/2023/03/image-16.png)](/images/2023/03/image-16.png)
 
 
 2\. 按图新建端口转发，注意内部IP地址记得**选对设备**，还要点击**添加按钮！！**
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-17.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-17.png)
+[![](/images/2023/03/image-17.png)](/images/2023/03/image-17.png)
 
 3\. 保存并应用
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-18.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-18.png)
+[![](/images/2023/03/image-18.png)](/images/2023/03/image-18.png)
 
 这样，就设置好啦~
 
 ### 体验使用
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/551456c51c523e738241eb314151e90.jpg)](https://blog.imwcr.cn/wp-content/uploads/2023/03/551456c51c523e738241eb314151e90.jpg)
+[![](/images/2023/03/551456c51c523e738241eb314151e90.jpg)](/images/2023/03/551456c51c523e738241eb314151e90.jpg)
 
 现在访问 **http://\[r68s在手机局域网下的IP\]:5244/** 就可以访问到 x3 上部署的 alist 啦
 

@@ -5,7 +5,7 @@ id: '13'
 categories:
   - - 瞎鼓捣
 date: 2021-02-18 16:40:02
-cover: https://blog.imwcr.cn/wp-content/uploads/2021/02/Snipaste_2021-02-18_16-28-16.jpg
+cover: /images/2021/02/Snipaste_2021-02-18_16-28-16.jpg
 coverWidth: 1200
 coverHeight: 600
 ---
@@ -18,11 +18,11 @@ coverHeight: 600
 
 原来的博客搭建在[旧服务器](http://149.129.83.207/)上，最开始没有套CDN，以为我这小网站，怎么可能被攻击呢。好家伙，结果真的就被攻击了，不过攻击的流量比较小，每次封了十个小时就解封了。
 
-[![封禁短信通知](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-1024x686.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image.png)
+[![封禁短信通知](/images/2021/02/image-1024x686.png)](/images/2021/02/image.png)
 
 封禁短信通知
 
-[![三次攻击时间](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-1.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-1.png)
+[![三次攻击时间](/images/2021/02/image-1.png)](/images/2021/02/image-1.png)
 
 三次攻击时间
 
@@ -32,7 +32,7 @@ coverHeight: 600
 
 但是呢我的**源站ip**已经暴露出来了，我总不可能套一个CDN，然后装作不知道吧。这不是掩耳盗铃吗？
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-5.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-5.png)
+[![](/images/2021/02/image-5.png)](/images/2021/02/image-5.png)
 
 源站ip记录
 
@@ -46,7 +46,7 @@ coverHeight: 600
 
 但是呢，**自选ip**就要隔一段时间自己去后台切换CDN的ip，所以我就想能不能自己弄个自动切换的。就在这时，一件事情发生了。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-6.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-6.png)
+[![](/images/2021/02/image-6.png)](/images/2021/02/image-6.png)
 
 Cloudflare首页被GFW阻断
 
@@ -54,7 +54,7 @@ Cloudflare首页被GFW阻断
 
 这当正当我冥思苦想的时候，我又发现，他解封了。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-7.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-7.png)
+[![](/images/2021/02/image-7.png)](/images/2021/02/image-7.png)
 
 Cloudflare首页封锁解除
 
@@ -68,19 +68,19 @@ Cloudflare首页封锁解除
 
 接下来说几个坑。刚才在创建博客的时候，发现突然就访问不了，并且弹出520错误。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-2-1024x698.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-2.png)
+[![](/images/2021/02/image-2-1024x698.png)](/images/2021/02/image-2.png)
 
 520错误
 
 吓了我赶紧看一下我首页能不能正常加载。结果发现是没有问题的。然后我又打开后台去看日志。发现是444错误。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-3.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-3.png)
+[![](/images/2021/02/image-3.png)](/images/2021/02/image-3.png)
 
 444错误
 
 百度一下发现没有，这是自定义的错误代码。然后再仔细一看，发现居然是后台的防火墙拦截了。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-4.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-4.png)
+[![](/images/2021/02/image-4.png)](/images/2021/02/image-4.png)
 
 防火墙提示
 
@@ -90,13 +90,13 @@ Cloudflare首页封锁解除
 
 好家伙，我用wordpress写着写着文章，突然页面就崩溃了。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-8-1024x774.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-8.png)
+[![](/images/2021/02/image-8-1024x774.png)](/images/2021/02/image-8.png)
 
 页面崩溃
 
 着实给我吓了一跳（不会吧，不会吧，我写了那么久的全没啦？？）然后一看下面那行代码我才心安。原来只是内存用光了，刷新下页面就行了，毕竟它有自动保存草稿的功能。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-9.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-9.png)
+[![](/images/2021/02/image-9.png)](/images/2021/02/image-9.png)
 
 自动保存草稿
 
@@ -106,11 +106,11 @@ _就在我准备发布的是否，，又又崩溃了_
 
 另外这个WordPress如果要修改固定链接，就一定要修改伪静态设置，要不然就加载不了文章页面。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-11-1024x489.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-11.png)
+[![](/images/2021/02/image-11-1024x489.png)](/images/2021/02/image-11.png)
 
 固定链接
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-12.png)](https://blog.imwcr.cn/wp-content/uploads/2021/02/image-12.png)
+[![](/images/2021/02/image-12.png)](/images/2021/02/image-12.png)
 
 宝塔伪静态设置
 

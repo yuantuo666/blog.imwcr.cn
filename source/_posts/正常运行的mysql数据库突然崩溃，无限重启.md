@@ -12,7 +12,7 @@ categories:
   - - Web
   - - 后端
 date: 2023-05-24 00:44:43
-cover: https://blog.imwcr.cn/wp-content/uploads/2023/05/benjamin-lehman-GNyjCePVRs8-unsplash-scaled.jpg
+cover: /images/2023/05/benjamin-lehman-GNyjCePVRs8-unsplash-scaled.jpg
 coverWidth: 1200
 coverHeight: 600
 ---
@@ -23,7 +23,7 @@ SSH 连上服务器发现 mysqld 的 CPU 占用极高，查看 NGINX 日志和 n
 
 关闭 PHP-fpm 服务，重启 MySQL 和 服务器均不管用。
 
-![](https://blog.imwcr.cn/wp-content/uploads/2023/05/8d1e05b8964b910ec378f9c9743e9f6.png)
+![](/images/2023/05/8d1e05b8964b910ec378f9c9743e9f6.png)
 
 检查 systemctl status mysql.service 和 journalctl -xe
 

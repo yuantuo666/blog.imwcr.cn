@@ -34,4 +34,4 @@ Host Test
 
 Step 3: 启动你的小猫和Vscode~
 
-![](https://blog.imwcr.cn/wp-content/uploads/2023/06/截屏2023-06-17-16.54.18.png)
+![](/images/2023/06/截屏2023-06-17-16.54.18.png)

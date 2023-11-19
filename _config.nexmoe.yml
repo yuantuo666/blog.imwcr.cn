@@ -1,4 +1,4 @@
-avatar: https://pic1.afdiancdn.com/user/b37d300210c011edb7a252540025c377/avatar/ec7d29a62060f8ead620d0dc864b1f1a_w1080_h1082_s656.jpg # 网站 Logo
+avatar: /images/headpic.jpg # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
     path: https://cn.bing.com/th?id=OHR.BrightonPalacePier_ROW3449174024_1920x1080.jpg
     width: 1920

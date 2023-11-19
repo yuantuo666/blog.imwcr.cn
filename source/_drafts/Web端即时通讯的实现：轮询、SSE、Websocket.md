@@ -24,7 +24,7 @@ categories:
 
 例如一些网站的支付界面就会采用短轮询来检查用户是否完成支付。
 
-![](https://blog.imwcr.cn/wp-content/uploads/2023/06/image.png)
+![](/images/2023/06/image.png)
 
 短轮询也有缺点，就是需要不断的发送请求，对客户端和服务端以及数据传输的资源有一定的浪费。而且数据更新的间隔取决于你设置的发起请求的间隔和数据传输的耗时，在对数据及时性有高要求的场景下可能并不是最佳的选择。（例如抢票、抢课等）
 
@@ -34,7 +34,7 @@ categories:
 
 例如一些网站的扫码登录就使用了长轮询检查。
 
-![](https://blog.imwcr.cn/wp-content/uploads/2023/06/image-1.png)
+![](/images/2023/06/image-1.png)
 
 和短轮询比起来，长轮询会减少一部分的开销，并且长轮询的及时性也会比短轮询更好，因为长轮询在数据更新时，会立即返回数据，不像短轮询必须等待请求间隔。但是服务器hlod住请求仍然有一定的性能开销，但如果考虑兼容性的话，这个是较好的选择。
 
@@ -44,4 +44,4 @@ categories:
 
 例如和ChatGPT聊天的页面就采用了SSE技术。
 
-![](https://blog.imwcr.cn/wp-content/uploads/2023/06/image-2.png)
+![](/images/2023/06/image-2.png)

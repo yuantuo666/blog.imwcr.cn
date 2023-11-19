@@ -62,7 +62,7 @@ php -c php.ini start.php start
 
 3\. 默认端口是8080，如果服务器提供商有防火墙需要放行，如果安装了宝塔，在安全页面也需要放行端口。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image.png)
+[![](/images/2023/03/image.png)](/images/2023/03/image.png)
 
 宝塔面板放行
 
@@ -75,17 +75,17 @@ Google 商店: https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifij
 Github Releases: https://github.com/FelisCatus/SwitchyOmega/releases
 ```
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-4.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-4.png)
+[![](/images/2023/03/image-4.png)](/images/2023/03/image-4.png)
 
 添加代理服务器
 
 然后进入设置页面添加代理服务器，设置IP和端口后保存应用，最后切换到设置的情景模式，就可以使用了。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-10.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-10.png)
+[![](/images/2023/03/image-10.png)](/images/2023/03/image-10.png)
 
 设置情境模式
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-7.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-7.png)
+[![](/images/2023/03/image-7.png)](/images/2023/03/image-7.png)
 
 选择代理服务器
 
@@ -136,13 +136,13 @@ $worker->onMessage = function($connection, $buffer)
 
 最后防止程序寄掉，上个supervisord进程守护，如果不用守护的话，装个screen然后开个窗口跑PHP就行了。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-8.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-8.png)
+[![](/images/2023/03/image-8.png)](/images/2023/03/image-8.png)
 
 进程守护
 
 先安装，然后添加守护进程。
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-9.png)](https://blog.imwcr.cn/wp-content/uploads/2023/03/image-9.png)
+[![](/images/2023/03/image-9.png)](/images/2023/03/image-9.png)
 
 添加守护
 

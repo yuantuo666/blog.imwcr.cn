@@ -46,7 +46,7 @@ Exception: [DownloadEngineFactory.cc:219] errorCode=1 Failed to setup RPC server
 
 打开“更改适配器选项”时，映入眼前的一幕让我傻了眼
 
-[![](https://blog.imwcr.cn/wp-content/uploads/2022/06/Snipaste_2022-06-29_20-10-05.jpg)](https://blog.imwcr.cn/wp-content/uploads/2022/06/Snipaste_2022-06-29_20-10-05.jpg)
+[![](/images/2022/06/Snipaste_2022-06-29_20-10-05.jpg)](/images/2022/06/Snipaste_2022-06-29_20-10-05.jpg)
 
 更改适配器选项
 
