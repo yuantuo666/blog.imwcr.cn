@@ -3,7 +3,7 @@ title: 世界，您好！
 tags: []
 id: '1'
 categories:
-  - - uncategorized
+  - - note
 date: 2021-02-18 14:56:36
 ---
 

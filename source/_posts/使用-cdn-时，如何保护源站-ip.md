@@ -3,7 +3,7 @@ title: 使用 CDN 时，如何保护源站 IP
 tags: []
 id: '172'
 categories:
-  - - uncategorized
+  - - 网络
 date: 2023-03-02 21:19:44
 cover: /images/2023/03/Snipaste_2023-03-02_21-29-24.png
 coverWidth: 1200
