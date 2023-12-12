@@ -5,6 +5,7 @@ tags:
 id: '248'
 categories:
   - - note
+  - - ChatGPT
 date: 2023-03-08 23:02:44
 cover: /images/2023/03/zac-wolff-rv2ooDQuNuI-unsplash-scaled.jpg
 coverWidth: 1200
